@@ -1,3 +1,5 @@
+/* Toute la page */
+
 body {
     margin: 0;
     padding: 0;
@@ -17,6 +19,16 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+#page-loading-blocs-notifaction {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100000;
+}
+
+/* Les blocs de : header, sections, footer */
 
 .bloc {
     width: 100%;
@@ -61,9 +73,6 @@ a:hover {
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
-}
-
-.bg-repeat {
     background: repeat;
 }
 
@@ -110,7 +119,7 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
+/*.d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
@@ -142,7 +151,7 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
-}
+}*/
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -241,19 +250,19 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
-}
+}*/
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
 
-.d-bloc .panel .btn-wire,
+/*.d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
-}
+}*/
 
 .voffset {
     margin-top: 30px;
@@ -319,6 +328,25 @@ a:hover {
     font-size: 16px;
 }
 
+/* Ajouter un Hover*/
+
+.nav > li
+{
+    transition: none;
+    padding: initial;
+    margin: initial;
+}
+
+.nav > li a
+{
+    transition: none;
+}
+
+.nav > li a:hover
+{
+    border-bottom: orange 2px solid;
+}
+
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -326,6 +354,11 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+}
+
+.nav > li a:hover
+{
+    border-bottom: orange 2px solid;
 }
 
 .navbar-toggle {
@@ -642,7 +675,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -671,9 +704,66 @@ p {
     font-size: 11px;
 }
 
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+}
+
+/* Ajout de grey-background*/
+
+.grey-background
+{
+    background-color: #303030;
+    padding-bottom: 30px;
+}
+
+.col-sm-12
+{
+    position: initial;
+}
+
+.col-sm-12 .text-center
+{
+    position: relative;
+}
+
+.col-sm-12 h2{
+    padding: 0 20px 30px 20px;
+}
+
+.col-sm-12 h2 strong{
+    color: #F3976C;
+}
+
+.et-icon, :before {
+    color: #F3976C;
+}
+
+.col-sm-4 h2
+{
+    color: #F3976C;
+    font-weight: bolder;
+}
+
+.col-sm-4 p
+{
+    font-size: small;
+}
+
+.col-sm-4 strong
+{
+    color: rgb(214, 132, 94);
+}
+
+q
+{
+    color: #575757;
+}
+
+q strong
+{
+    color: #F3976C;
 }
 
 .h1 {
@@ -925,6 +1015,7 @@ h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
+
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
