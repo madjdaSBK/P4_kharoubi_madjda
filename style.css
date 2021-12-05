@@ -7,6 +7,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /*font-family: 'Raleway', sans-serif; Pas de possibilité d'ajouter @font face ou d'autres polices */
 }
 
 a
@@ -586,13 +587,11 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
-
-/*
 a[data-lightbox]:hover img {
-    opacity: 0.6;
+    /*opacity: 0.6;*/
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
-}*/
+}
 
 #lightbox-modal {
     display: flex;
@@ -620,7 +619,7 @@ a[data-lightbox]:hover img {
     bottom: 5px;
 }
 
-/*
+
 .close-lightbox {
     color: #FFF;
     font-size: 30px;
@@ -632,7 +631,7 @@ a[data-lightbox]:hover img {
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
+    /*opacity: 0.3;*/
 }
 
 .close-lightbox:hover,
@@ -651,7 +650,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    /*opacity: 0.4;*/
 }
 
 .next-lightbox {
@@ -662,7 +661,7 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
     left: 25px;
-}*/
+}
 
 .snapshot-lb .modal-body {
     padding-bottom: 45px;
