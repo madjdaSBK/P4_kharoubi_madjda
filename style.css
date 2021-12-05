@@ -9,6 +9,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a
+{
+    color: initial;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -18,6 +23,8 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: initial;
+    color:#7F2D33;
 }
 
 #page-loading-blocs-notifaction {
@@ -339,6 +346,7 @@ a:hover {
 .nav > li a
 {
     transition: none;
+    color: #575757; /* Ajouter color */
 }
 
 .nav > li a:hover
@@ -529,7 +537,8 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    /*border-color: rgba(0, 0, 0, .1); */
+    border: 2px solid #F3976C ;
     box-shadow: none;
 }
 
@@ -676,8 +685,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757;
+    /*font-weight: 400;
+    color: #575757;*/
 }
 
 .container {
@@ -802,9 +811,9 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+/*h1 {
     color: #333333!important;
-}
+}*/
 
 h4 {
     color: #333333!important;
@@ -880,7 +889,8 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
+/* Ajout d'une balise txt-orange */
+.txt-orange{
     color: #F3976C!important;
 }
 
@@ -978,9 +988,9 @@ footer h2
     font-size: 20px;
 }
 
-
 .footer-title
 {
+    /*color: #888888;*/
     color: #303030;
     font-weight: bold;
     font-size: initial;
@@ -1001,13 +1011,51 @@ footer h2
     justify-content: space-around;
 }
 
-.partner-icons
+.partner-links a
 {
     color: rgba(255, 255, 255, .6);
     font-size: 30px;
 }
 
+.partner-links a:hover
+{
+    color:#7F2D33;
+}
 
+
+/* Page 2 */
+
+/* Section contact */
+.page_contact-txt .txt-white
+{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Formulaire */
+
+#form_1
+{
+    color:#303030;
+    font-weight: bolder;
+}
+
+.contact-txt
+{
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #F3976C;
+}
+
+/* Aside */
+
+.aside-mail
+{
+    color: #F3976C;
+    font-weight: bold;
+}
 
 @media (max-width: 1024px) {
     .bloc {
