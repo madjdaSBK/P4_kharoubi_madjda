@@ -631,7 +631,7 @@ a[data-lightbox]:hover img {
 .prev-lightbox:hover {
     opacity: 1.0;
     color: #FFF;
-}*/
+}
 
 .next-lightbox,
 .prev-lightbox {
@@ -653,7 +653,7 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
     left: 25px;
-}
+}*/
 
 .snapshot-lb .modal-body {
     padding-bottom: 45px;
@@ -714,16 +714,22 @@ p {
 
 /* Ajout de grey-background*/
 
-.grey-background
+.grey_background
 {
     background-color: #303030;
     padding-bottom: 30px;
 }
 
-.col-sm-12 .text-center
+.grey_background-bloc
+{
+    position: initial;
+}
+
+.txt-orange, .lnk-orange
 {
     position: relative;
 }
+
 
 .goal h2{
     padding: 0 20px 30px 20px;
@@ -939,6 +945,7 @@ h4 {
     background-color: #303030;
     margin: 120px;
     padding: 20px;
+    position: relative;
 }
 
 .contact h2
