@@ -638,7 +638,7 @@ a[data-lightbox]:hover img {
 .close-lightbox:hover,
 .next-lightbox:hover,
 .prev-lightbox:hover {
-    opacity: 1.0;
+    /*opacity: 1.0;*/
     color: #FFF;
 }
 
