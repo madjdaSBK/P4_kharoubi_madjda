@@ -789,6 +789,7 @@ q strong
     max-width: 400px;
     margin: auto auto auto auto;
     color: rgba(255, 255, 255, .6);
+    margin-bottom: 12px; /* Ajout */
 }
 
 
@@ -1002,6 +1003,8 @@ footer h2
     font-weight: bold;
     padding-top: 20px;
     font-size: initial;
+    margin: initial;
+    border-top: rgba(255, 255, 255, .6) solid 2px;
 }
 
 .partner-links
