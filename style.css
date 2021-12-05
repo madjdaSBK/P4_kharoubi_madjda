@@ -533,7 +533,7 @@ button {
     box-shadow: none;
 }
 
-.scrollToTop {
+/*.scrollToTop {
     width: 40px;
     height: 40px;
     position: fixed;
@@ -551,7 +551,7 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
-}
+}*/
 
 a[data-lightbox] {
     position: relative;
@@ -577,11 +577,13 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
+
+/*
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
-}
+}*/
 
 #lightbox-modal {
     display: flex;
@@ -609,6 +611,7 @@ a[data-lightbox]:hover img {
     bottom: 5px;
 }
 
+/*
 .close-lightbox {
     color: #FFF;
     font-size: 30px;
@@ -628,7 +631,7 @@ a[data-lightbox]:hover img {
 .prev-lightbox:hover {
     opacity: 1.0;
     color: #FFF;
-}
+}*/
 
 .next-lightbox,
 .prev-lightbox {
