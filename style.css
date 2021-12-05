@@ -991,11 +991,12 @@ footer h2
     justify-content: space-around;
 }
 
-.partner-links i
+.partner-icons
 {
     color: rgba(255, 255, 255, .6);
     font-size: 30px;
 }
+
 
 
 @media (max-width: 1024px) {
