@@ -955,7 +955,6 @@ h4 {
     background-color: #303030;
     margin: 120px;
     padding: 20px;
-    position: relative;
 }
 
 .contact h2
@@ -1260,6 +1259,18 @@ footer h2
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .contact
+    {
+        margin: initial;
+    }
+
+    .social
+    {
+        display: flex;
+        justify-content: space-between;
+
     }
 }
 
