@@ -269,7 +269,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .row-no-gutters {
@@ -816,8 +816,17 @@ h4 {
     margin-top: 24px;
 }
 
+/* Ajouter font-size*/
+
 .white {
     color: #FFFFFF!important;
+    font-size: medium;
+}
+
+/* Ajouter couleur en gras*/
+
+.white strong {
+    color: #F3976C;
 }
 
 .portfolio-thumb {
@@ -826,15 +835,32 @@ h4 {
 
 .portfolio-row {
     margin-bottom: 44px;
-    margin-top: 50px;
+    /*margin-top: 50px; */
+}
+
+.red-text
+{
+    color:#7F2D33;
+    font-weight: bold;
+}
+
+.col-sm-6 p
+{
+    font-size: medium;
+}
+
+.col-sm-6 strong
+{
+    color:#7F2D33;
 }
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
+/* Modifier */
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #303030;
     padding: 40px 40px 40px 40px;
 }
 
@@ -859,13 +885,20 @@ h4 {
     color: #F3976C!important;
 }
 
+.white-text
+{
+    color: white;
+}
+
+/* Modifier */
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #7F2D33;
     color: #FFFFFF!important;
 }
 
