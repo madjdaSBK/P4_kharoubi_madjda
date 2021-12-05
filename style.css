@@ -118,7 +118,6 @@ a:hover {
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
 }
-
 /*.d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -151,7 +150,7 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
-}*/
+}
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -250,13 +249,13 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
-}*/
+}
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
 
-/*.d-bloc .panel .btn-wire,
+.d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
@@ -718,17 +717,12 @@ p {
     padding-bottom: 30px;
 }
 
-.col-sm-12
-{
-    position: initial;
-}
-
 .col-sm-12 .text-center
 {
     position: relative;
 }
 
-.col-sm-12 h2{
+.goal h2{
     padding: 0 20px 30px 20px;
 }
 
@@ -736,14 +730,8 @@ p {
     color: #F3976C;
 }
 
-.et-icon, :before {
+.icon-lg::before{
     color: #F3976C;
-}
-
-.col-sm-4 h2
-{
-    color: #F3976C;
-    font-weight: bolder;
 }
 
 .col-sm-4 p
@@ -780,10 +768,12 @@ q strong
     font-weight: 700;
 }
 
-.social {
+.social{
     max-width: 400px;
     margin: auto auto auto auto;
+    color: rgba(255, 255, 255, .6);
 }
+
 
 h2 {
     font-size: 22px;
@@ -835,7 +825,7 @@ h4 {
 
 .portfolio-row {
     margin-bottom: 44px;
-    /*margin-top: 50px; */
+    margin-top: 50px; 
 }
 
 .red-text
@@ -938,6 +928,75 @@ h4 {
 .bg-presentation {
     background-image: url("images/image-de-presentation.jpg");
 }
+
+/* Section contact */
+
+.contact
+{
+    background-color: #303030;
+    margin: 120px;
+    padding: 20px;
+}
+
+.contact h2
+{
+    font-weight: bolder;
+    margin-bottom: initial;
+}
+
+/* Footer */
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+}
+
+footer h2
+{
+    color: rgba(255, 255, 255, .6);
+}
+
+.footer-col
+{
+    width: initial;
+}
+
+.partners .col-sm-4
+{
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.footer-title
+{
+    color: #303030;
+    font-weight: bold;
+    font-size: initial;
+}
+
+.partners-title
+{
+    text-align: center;
+    color: #303030;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: initial;
+}
+
+.partner-links
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.partner-links i
+{
+    color: rgba(255, 255, 255, .6);
+    font-size: 30px;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
