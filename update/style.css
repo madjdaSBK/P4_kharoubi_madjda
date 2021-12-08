@@ -1,5 +1,13 @@
 /* Toute la page */
 
+.h2_homepage
+{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+
 body {
     margin: 0;
     padding: 0;
