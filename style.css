@@ -24,7 +24,6 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-    color: initial;
     color:#7F2D33;
 }
 
@@ -157,7 +156,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color:#7F2D33;;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -348,11 +347,12 @@ a:hover {
 {
     transition: none;
     color: #575757; /* Ajouter color */
+    border-bottom: transparent 2px solid;
 }
 
 .nav > li a:hover
 {
-    border-bottom: orange 2px solid;
+    border-color: orange;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -478,7 +478,8 @@ nav .caret {
 }
 
 .btn {
-    margin: 0 5px 5px 0;
+    /*margin: 0 5px 5px 0; */ 
+
 }
 
 .btn.pull-right {
@@ -489,7 +490,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: #7F2D33;
 }
 
 button {
@@ -543,7 +544,7 @@ button {
     box-shadow: none;
 }
 
-/*
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -562,7 +563,7 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
-}*/
+}
 
 a[data-lightbox] {
     position: relative;
@@ -840,8 +841,6 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    width: 100%;
-    height: 100%;
 }
 
 .portfolio-row {
@@ -1263,6 +1262,26 @@ footer h2
         width: 180px;
         height: 320px;
     }*/
+
+    /* Modif ici */
+
+    .img-responsive
+    {
+        display: initial;
+    }
+
+    .col-sm-6
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-thumb {
+        width: 50%;
+        height: 50%;
+    }
+
+
 
     .contact
     {
