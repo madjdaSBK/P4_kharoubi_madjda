@@ -686,7 +686,6 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -793,6 +792,7 @@ h2 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px; 
+    max-width: 600px;
 }
 
 .red-text
@@ -832,7 +832,7 @@ h2 {
 
 .black-background {
     background-color: #303030;
-    padding: 40px 40px 40px 40px;
+    padding: 40px;
 }
 
 .bold-link {
@@ -1203,6 +1203,11 @@ footer h2
     .close-lightbox {
         display: inline-block;
     }
+
+    .black-background {
+        padding: initial; 
+    }
+
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
         padding-top: 60px;
@@ -1225,9 +1230,16 @@ footer h2
         height: 100%;
     }
 
+    .portfolio-row
+    {
+        margin-top: initial;
+        margin-bottom: initial;
+    }
+
     .portfolio-thumb {
         width: 50%;
         height: 50%;
+        margin-top: 20px;
     }
     
     .contact

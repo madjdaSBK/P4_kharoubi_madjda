@@ -687,7 +687,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 600px; /* retirer */
     margin: auto auto auto auto;
 }
 
@@ -760,6 +760,7 @@ h4 { /* Retirer */
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    /* ajouter la width */
 }
 
 .avatar {
@@ -768,7 +769,7 @@ h4 { /* Retirer */
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7); /* Modifier */
-    padding: 40px 40px 40px 40px;
+    padding: 40px 40px 40px 40px; 
 }
 
 .bold-link {
