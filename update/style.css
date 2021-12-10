@@ -732,7 +732,7 @@ p {
 /* Section service */
 
 .col-sm-12 h2 strong{
-    color: #F3976C;
+    color: #7f2d33;
 }
 
 .icon-lg::before{
@@ -746,7 +746,7 @@ p {
 
 .col-sm-4 strong
 {
-    color: rgb(214, 132, 94);
+    color: #7f2d33;
 }
 
 q
@@ -756,7 +756,7 @@ q
 
 q strong
 {
-    color: #F3976C;
+    color: #7f2d33;
 }
 
 .cta-hero {
@@ -796,7 +796,7 @@ h2 {
 }
 
 .white strong {
-    color: #F3976C;
+    color: #7f2d33;
 }
 
 /* Section portfolio */
