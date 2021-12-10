@@ -217,7 +217,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: #575656;
 }
 
 .d-bloc .panel button:hover,
@@ -253,7 +253,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: #575656;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -729,14 +729,19 @@ p {
     padding: 0 20px 30px 20px;
 }
 
+.goal .goal-strong strong
+{
+    color: #F3976C;
+}
+
 /* Section service */
 
 .col-sm-12 h2 strong{
-    color: #7f2d33;
+    color: #7F2D33;
 }
 
 .icon-lg::before{
-    color: #F3976C;
+    color: #7F2D33;
 }
 
 .col-sm-4 p
@@ -746,7 +751,7 @@ p {
 
 .col-sm-4 strong
 {
-    color: #7f2d33;
+    color: #7F2D33;
 }
 
 q
@@ -756,7 +761,7 @@ q
 
 q strong
 {
-    color: #7f2d33;
+    color: #7F2D33;
 }
 
 .cta-hero {
@@ -796,7 +801,7 @@ h2 {
 }
 
 .white strong {
-    color: #7f2d33;
+    color: #F3976C;
 }
 
 /* Section portfolio */
