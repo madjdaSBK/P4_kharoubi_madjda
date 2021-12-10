@@ -1,5 +1,16 @@
 /* Toute la page */
 
+
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url('sourcesanspro-black-webfont.woff2') format('woff2'),
+         url('sourcesanspro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    @font-display: swap;
+
+}
+
 .h2_homepage
 {
     font-size: 30px;
@@ -15,7 +26,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'source_sans_problack', sans-serif, Helvetica, Arial;
 }
 
 a
@@ -555,7 +566,6 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: 'Source Sans Pro', sans-serif, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -652,19 +662,6 @@ a[data-lightbox]:hover img {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
-    font-family: 'Source Sans Pro', sans-serif, "helvetica";
 }
 
 .container {
