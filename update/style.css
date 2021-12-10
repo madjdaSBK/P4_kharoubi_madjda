@@ -532,7 +532,7 @@ button {
 }
 
 .form-control {
-    border: 2px solid #F3976C ;
+    border: 2px solid #7F2D33;
     box-shadow: none;
 }
 
@@ -1015,7 +1015,7 @@ footer h2
     text-align: left;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #F3976C;
+    color: #7F2D33;
 }
 
 /* Aside */
