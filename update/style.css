@@ -3,8 +3,8 @@
 
 @font-face {
     font-family: 'source_sans_problack';
-    src: url('/update/font/sourcesanspro-black-webfont.woff') format('woff2'),
-         url('/update/font/sourcesanspro-black-webfont.woff2') format('woff');
+    src: url('update/font/sourcesanspro-black-webfont.woff') format('woff2'),
+         url('update/font/sourcesanspro-black-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
