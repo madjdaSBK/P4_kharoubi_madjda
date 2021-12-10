@@ -29,6 +29,7 @@ ExpiresActive on
     ExpiresByType image/gif                     "access plus 6 months"
     ExpiresByType image/png                     "access plus 6 months"
     ExpiresByType image/jpeg                    "access plus 6 months"
+    ExpiresByType image/jpg                    "access plus 6 months"
     ExpiresByType image/webp                    "access plus 6 months"
     # HTC files  (css3pie)
     ExpiresByType text/x-component              "access plus 6 month"
