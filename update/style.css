@@ -693,7 +693,19 @@ p {
     margin: auto auto auto auto;
 }
 
+.img-owl
+{
+    width: 386px;
+    height: 72px;
+}
+
 /* Section présentation */
+
+.img-owl2
+{
+    width: 150px;
+    height: 150px;
+}
 
 .grey_background
 {
